@@ -1,21 +1,22 @@
+<!DOCTYPE html>
 <html>
 <head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
 </head>
 <body>
-    <div class="container">
-        <div class="row row1"> 
-    <div class="col-md-4 row1 col1 ">Row1 col1</div>
-    <div class=" col-md-8 row1 col2 ">Row1 col2</div> 
-</div>
-        <div class="row row2 ">
-            <div class="row2 col1  col-md-4 offset-md-2">Row2 col1</div>
-            <div class="row2 col2  col-md-4">Row2 col2</div>
+    <div id="grid" class="container">
+        <div id="row1" class="row">
+            <div id="r1c1" class="col-sm-6 col-md-4">Row1 col1</div>
+            <div id="r1c2" class="col-sm-6 col-md-8">Row1 col2</div>
         </div>
-        <div class="row row3 justify-content-center">
-            <div class="row3 col1  col-md-4">Row3 col1</div>
-            <div class="row3 col2  col-md-4">Row3 col2</div>
+        <div id="row2" class="row">
+            <div id="r2c1" class="col-md-4 offset-md-2">Row2 col1</div>
+            <div id="r2c2" class="col-md-4">Row2 col2</div>
+        </div>
+        <div id="row3" class="row justify-content-center">
+            <div id="r3c1" class="col-sm-6 col-md-4">Row3 col1</div>
+            <div id="r3c2" class="col-sm-6 col-md-4">Row3 col2</div>
         </div>
     </div>
     <script type="text/javascript" src="./script.js"></script>
